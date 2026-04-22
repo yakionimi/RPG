@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "rpg_saba",
+  "version": "1.0.0",
+  "name": "RPG Saba",
+  "description": "RPG system mod with custom HUD",
+  "authors": [
+    "you"
+  ],
+  "contact": {},
+  "license": "MIT",
+
+  "entrypoints": {
+  "main": [
+    "com.rpg_saba.RpgSaba"
+  ],
+  "client": [
+    "com.rpg_saba.client.RpgSabaClient"
+  ]
+},
+
+  "mixins": [
+    "rpg_saba.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}

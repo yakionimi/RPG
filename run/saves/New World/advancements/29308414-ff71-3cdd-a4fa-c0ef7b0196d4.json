@@ -1,0 +1,27 @@
+{
+  "rpg_saba:skill/root": {
+    "criteria": {
+      "tick": "2026-04-21 19:42:58 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-04-21 19:42:58 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2026-04-21 19:43:36 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:meadow": "2026-04-21 19:43:32 +0900"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}

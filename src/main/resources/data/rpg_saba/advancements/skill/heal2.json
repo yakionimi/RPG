@@ -1,0 +1,16 @@
+{
+  "parent": "rpg_saba:skill/heal",
+  "display": {
+    "icon": { "item": "minecraft:golden_apple" },
+    "title": "回復Ⅱ",
+    "description": "強化回復",
+    "frame": "task",
+    "x": 1,
+    "y": 1
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
