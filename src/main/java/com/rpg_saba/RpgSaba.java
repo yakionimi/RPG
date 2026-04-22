@@ -20,6 +20,7 @@ public class RpgSaba implements ModInitializer {
         VillagerClickHandler.init();
         ModItems.register();
         MPSystem.init();
+        DamageHandler.init();
 
         SkillClickHandler.register();
 
